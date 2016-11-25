@@ -3460,7 +3460,7 @@ SWIGINTERN PyObject *_wrap_agread(PyObject *SWIGUNUSEDPARM(self), PyObject *args
   {
 #if PY_VERSION_HEX >= 0x03000000 || defined(PYPY_VERSION)
 #if !defined(PYPY_VERSION)
-    if (!PyObject_IsInstance(obj0, PyIOBase_TypeObj) {
+    if (!PyObject_IsInstance(obj0, PyIOBase_TypeObj)) {
       PyErr_SetString(PyExc_TypeError, "not a file handle");
       return NULL;
     }
@@ -3534,7 +3534,7 @@ SWIGINTERN PyObject *_wrap_agwrite(PyObject *SWIGUNUSEDPARM(self), PyObject *arg
   {
 #if PY_VERSION_HEX >= 0x03000000 || defined(PYPY_VERSION)
 #if !defined(PYPY_VERSION)
-    if (!PyObject_IsInstance(obj1, PyIOBase_TypeObj) {
+    if (!PyObject_IsInstance(obj1, PyIOBase_TypeObj)) {
       PyErr_SetString(PyExc_TypeError, "not a file handle");
       return NULL;
     }
