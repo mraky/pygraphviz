@@ -1,3 +1,9 @@
+this is fork done on 26.11  , as i wanted to compile pygraphviz on windows 10....
+added changes are from:
+https://github.com/Kagami/pygraphviz/commit/fe442dc16accb629c3feaf157af75f67ccabbd6e
+
+this version i  could compile 
+
 PyGraphviz
 ----------
 
